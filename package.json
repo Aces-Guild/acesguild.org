@@ -5,7 +5,9 @@
   "scripts": {
     "dev": "astro dev",
     "build": "astro build",
-    "preview": "astro preview"
+    "preview": "astro preview",
+    "sync": "node scripts/sync-projects.js",
+    "sync:local": "node scripts/sync-projects.js --local"
   },
   "dependencies": {
     "astro": "^4.0.0"
